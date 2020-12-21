@@ -1,12 +1,9 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
 
-require "spec_helper"
-
 def parrot(sound="Squawk!")
     puts "#{sound}"
-    return "#{sound}"
+    "#{sound}"
 end
-parrot
-parrot("Pretty bird!")
+
 
